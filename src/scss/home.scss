@@ -1,0 +1,103 @@
+.homePage {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.homePage__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homePage__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 140px;
+  margin: 80px 0 56px 0;
+  text-transform: uppercase;
+  color: $green;
+}
+
+.homePage__subTitle {
+  font-family: "Poppins", arial, serif;
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.homePage__gamePresentation {
+  max-width: 80%;
+  margin: 0 56px 72px 56px;
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.homePage__buttonHowToPlay {
+  width: 327px;
+  height: 60px;
+  background-color: $purple;
+  margin-bottom: 56px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px $purple;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 0 15px 5px $purple;
+    transform: scale(1.05);
+  }
+
+  a {
+    font-family: "Poppins", arial, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.homePage__buttonPlay {
+  width: 524px;
+  height: 123px;
+  background-color: $green;
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  font-family: "Poppins", arial, serif;
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px $green;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 0 15px 5px $green;
+    transform: scale(1.05);
+  }
+}
+
+.soundControlIcon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(/img/volume-symbol.svg);
+  background-repeat: no-repeat;
+}

@@ -1,3 +1,11 @@
-@import 'vendors/reset';
+@import "vendors/reset";
 
-@import 'global/layout';
+@import "global/layout";
+
+@import "global/colors";
+
+@import "global/fonts";
+
+@import "home";
+
+@import "end";

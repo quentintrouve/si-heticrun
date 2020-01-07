@@ -1,13 +1,3 @@
-.endPage {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 .soundControlIcon {
   width: 70px;
   height: 70px;
@@ -30,6 +20,78 @@
   border: none;
   padding: 0;
   background-color: transparent;
-  background-image: url(/img/volume-symbol.svg);
+  background-image: url(/img/home-symbol.png);
   background-repeat: no-repeat;
+}
+
+.endGame {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.endGame__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.endGame__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 120px;
+  margin: 88px 0 56px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.endGame__result {
+  font-family: "Poppins", arial, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: $purple;
+  margin-bottom: 40px;
+}
+
+.endGame__text {
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.endGame__imageContent {
+  display: flex;
+
+  .endGame__image {
+    width: 150px;
+    height: 250px;
+  }
+}
+
+.endGame__buttonRestart {
+  width: 450px;
+  height: 78px;
+  background-color: $green;
+  padding: 0;
+  border: none;
+  border-radius: 40px;
+  font-family: "Poppins", arial, serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px $green;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 0 15px 5px $green;
+    transform: scale(1.05);
+  }
 }

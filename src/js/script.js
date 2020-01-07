@@ -1,1 +1,1 @@
-oxo.screens.loadScreen("end", function() {});
+oxo.screens.loadScreen("home", function() {});

@@ -17,7 +17,7 @@
 .homePage__title {
   font-family: PostNoBillsJaffna, arial, serif;
   font-size: 140px;
-  margin: 80px 0 56px 0;
+  margin: 50px 0 40px 0;
   text-transform: uppercase;
   color: $green;
 }
@@ -25,23 +25,35 @@
 .homePage__subTitle {
   font-family: "Poppins", arial, serif;
   font-size: 36px;
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 
 .homePage__gamePresentation {
   max-width: 80%;
-  margin: 0 56px 72px 56px;
+  margin: 0 56px 60px 56px;
   font-family: "Poppins", arial, serif;
   font-size: 24px;
   text-align: center;
   line-height: 36px;
 }
 
+.homePage__credits {
+  font-family: "Poppins", arial, serif;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
 .homePage__buttonHowToPlay {
   width: 327px;
   height: 60px;
   background-color: $purple;
-  margin-bottom: 56px;
+  margin-bottom: 45px;
   padding: 0;
   border: none;
   border-radius: 10px;
@@ -57,20 +69,11 @@
     box-shadow: 0 0 15px 5px $purple;
     transform: scale(1.05);
   }
-
-  a {
-    font-family: "Poppins", arial, serif;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-  }
 }
 
 .homePage__buttonPlay {
   width: 524px;
-  height: 123px;
+  height: 110px;
   background-color: $green;
   padding: 0;
   border: none;
@@ -87,17 +90,4 @@
     box-shadow: 0 0 15px 5px $green;
     transform: scale(1.05);
   }
-}
-
-.soundControlIcon {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  border: none;
-  padding: 0;
-  background-color: transparent;
-  background-image: url(/img/volume-symbol.svg);
-  background-repeat: no-repeat;
 }

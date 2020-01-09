@@ -1,0 +1,185 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.try {
+  height: 750px;
+  width: 100%;
+  position: relative;
+}
+
+.james {
+  background: url("../img/game/run.gif") no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  //  border: 2px solid red;
+}
+
+.jump {
+  animation-name: jump-action;
+  animation-duration: 1s;
+}
+
+@keyframes jump-action {
+  0% {
+    bottom: 50px;
+  }
+  50% {
+    bottom: 230px;
+  }
+}
+
+.bend {
+  background: url("../img/game/roll.gif") no-repeat;
+  background-size: cover;
+  //  border: 2px solid red;
+  width: 30px;
+  height: 40px;
+  left: 60px;
+}
+
+.obstacles {
+  position: absolute;
+  right: -200px;
+  bottom: 55px;
+}
+
+.obstacles__coffee {
+  background: url("../img/game/coffee.png") no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 35px;
+}
+
+.obstacles__table {
+  background: url("../img/game/table.png") no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 40px;
+}
+
+.obstacles__chair {
+  background: url("../img/game/chair.png") no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 60px;
+}
+
+.obstacles__proj {
+  background: url("../img/game/projecteur.png") no-repeat;
+  background-size: cover;
+  width: 82px;
+  height: 100px;
+  bottom: 100px;
+}
+
+.obstacles__move {
+  animation: linear obstaclesmove 4s;
+}
+
+@keyframes obstaclesmove {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-1500px);
+  }
+}
+
+.floor {
+  background-color: grey;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+}
+
+.stop {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+}
+
+.ennemy {
+  background: url("../img/game/student.gif") no-repeat;
+  background-size: cover;
+  //  border: 2px solid red;
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+}
+
+.ennemy__move {
+  animation: linear enemyMove 5s forwards;
+}
+
+@keyframes enemyMove {
+  from {
+    transform: translateX(1300px);
+  }
+  to {
+    transform: translateX(-60px);
+  }
+}
+
+.bonus {
+  width: 50px;
+  height: 50px;
+  bottom: 70px;
+  position: absolute;
+}
+
+.bonus--birdies {
+  background: url("../img/game/beer.png") no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 50px;
+}
+
+.bonus--water {
+  background: url("../img/game/gourd.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 50px;
+}
+
+.bonus__move {
+  animation: linear enemyMove 4s forwards;
+}
+
+.invicible {
+  background: url("../img/game/invicible.gif") no-repeat;
+  background-size: cover;
+}
+
+.score {
+  position: absolute;
+  top: 22px;
+  left: 27px;
+  width: 150px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  height: 20px;
+  color: #2cae2c;
+  text-align: center;
+  font-size: 36px;
+}
+
+.money {
+  background: url("../img/game/money.png") no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 50px;
+  left: 170px;
+  top: 22px;
+  position: absolute;
+}
+
+//GAME IS IN 1280*750

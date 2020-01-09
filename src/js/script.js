@@ -1,6 +1,4 @@
-oxo.screens.loadScreen("howToPlay", function() {});
-
-/*function setClick(element, destination, callback) {
+function setClick(element, destination, callback) {
   document.querySelector(element).addEventListener("click", function() {
     oxo.screens.loadScreen(destination, callback);
   });
@@ -23,4 +21,4 @@ function end() {
 
 function credits() {
   setClick(".homePageIcon", "home", home);
-}*/
+}

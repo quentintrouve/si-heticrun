@@ -11,10 +11,15 @@ body.howToPlay {
 .howToPlay__title {
   font-family: PostNoBillsJaffna, arial, serif;
   font-size: 80px;
-  margin: 20px 0 20px 0;
+  margin: 70px 0 20px 0;
   text-transform: uppercase;
   color: $green;
   text-align: center;
+}
+
+.howToPlay__commandImg {
+  padding-left: 300px;
+  margin-top: 50px;
 }
 
 .howToPlay__subTitle {

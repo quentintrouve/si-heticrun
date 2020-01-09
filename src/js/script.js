@@ -42,6 +42,9 @@ function game() {
   let intervalBend = speedJump * 1000;
   let characterPosition = 50;
   let invicible = false;
+  let score = 0;
+  let audio = document.querySelector(".audio");
+  soundIcon = document.querySelector(".soundControlIcon");
 
   document.addEventListener("keydown", function(e) {
     if (e.keyCode === 40) {
@@ -142,6 +145,13 @@ function game() {
       characterPosition = 50;
       character.style.left = characterPosition + "px";
       oxo.player.addToScore(7500);
+      score++;
+      if (score == 10) {
+        oxo.screens.loadScreen("victory", function() {
+          clearIntervals();
+          victory();
+        });
+      }
       e.remove();
     });
   }
@@ -193,7 +203,7 @@ function game() {
     });
   }
 
-  function score() {
+  function setScore() {
     oxo.player.setScore(0);
   }
 
@@ -210,13 +220,12 @@ function game() {
   let intervalEnnemy = setInterval(createEnnemy, 30000);
   let intervalBonusWater = setInterval(createBonusWater, 7000);
   let intervalBonusBirdies = setInterval(createBonusBirdies, 20000);
-  score();
-  /*let audio = document.querySelector(".audio");
-  soundIcon = document.querySelector(".soundControlIcon");
+  setScore();
+
   audio.play();
   soundIcon.addEventListener("click", function() {
     mute();
-  });*/
+  });
 }
 
 function end() {

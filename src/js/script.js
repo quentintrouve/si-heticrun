@@ -1,7 +1,5 @@
-oxo.screens.loadScreen("end");
-/*function setClick(element, destination, callback) {
-  document.querySelector(element).addEventListener("click", function() {
-    oxo.screens.loadScreen(destination, callback);
+document.querySelector(element).addEventListener("click", function() {
+  oxo.screens.loadScreen(destination, callback);
   });
 }
 
@@ -10,7 +8,7 @@ oxo.screens.loadScreen("home", home);
 function home() {
   setClick(".homePage__buttonPlay", "game", game);
   setClick(".homePage__buttonHowToPlay", "howToPlay", howToPlay);
-  setClick(".homePage__buttonCredits", "credits", credits);
+  setClick(".buttonCredits", "credits", credits);
 }
 
 function game() {}
@@ -22,4 +20,9 @@ function end() {
 
 function credits() {
   setClick(".homePageIcon", "home", home);
-}*/
+}
+
+function howToPlay() {
+  setClick(".homePageIcon", "home", home);
+  setClick(".buttonCredits", "credits", credits);
+}

@@ -1,0 +1,73 @@
+body.howToPlay {
+  background-color: $purple;
+}
+
+.howToPlay {
+  height: 100vh;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.howToPlay__title {
+  font-family: PostNoBillsJaffna, arial, serif;
+  font-size: 80px;
+  margin: 20px 0 20px 0;
+  text-transform: uppercase;
+  color: $green;
+  text-align: center;
+}
+
+.howToPlay__subTitle {
+  font-family: "Poppins", arial, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.howToPlay__bonusMalus {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.howToPlay__listItems {
+  font-family: "Poppins", arial, serif;
+  font-size: 16px;
+  color: white;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.listItemsBonus {
+  li:nth-child(1) {
+    list-style-image: url("../img/gourde.png");
+  }
+  li:nth-child(2) {
+    list-style-image: url("../img/birdes.png");
+  }
+  li:nth-child(3) {
+    list-style-image: url("../img/ordi.png");
+  }
+  li:nth-child(4) {
+    list-style-image: url("../img/souris.png");
+  }
+  li:nth-child(5) {
+    list-style-image: url("../img/café.png");
+  }
+}
+
+.listItemsObstacles {
+  li:nth-child(1) {
+    list-style-image: url("../img/chaise.png");
+  }
+  li:nth-child(2) {
+    list-style-image: url("../img/table.png");
+  }
+  li:nth-child(3) {
+    list-style-image: url("../img/video_proj.png");
+  }
+  li:nth-child(4) {
+    list-style-image: url("../img/flaque.png");
+  }
+}

@@ -1,13 +1,13 @@
 .homePageIcon {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   border: none;
   padding: 0;
   background-color: transparent;
-  background-image: url(/img/home-symbol.png);
+  background-image: url("../img/home-symbol.png");
   background-repeat: no-repeat;
 }
 
@@ -15,12 +15,12 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: none;
   padding: 0;
   background-color: transparent;
-  background-image: url(/img/volumeOn.svg);
+  background-image: url("../img/volumeOn.svg");
   background-repeat: no-repeat;
 }
 
@@ -30,6 +30,23 @@
   border: none;
   padding: 0;
   background-color: transparent;
-  background-image: url(/img/restart.png);
+  background-image: url("../img/restart.png");
   background-repeat: no-repeat;
+}
+
+.buttonCredits {
+  font-family: "Poppins", arial, serif;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  &:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
 }

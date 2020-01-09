@@ -1,4 +1,5 @@
-function setClick(element, destination, callback) {
+oxo.screens.loadScreen("end");
+/*function setClick(element, destination, callback) {
   document.querySelector(element).addEventListener("click", function() {
     oxo.screens.loadScreen(destination, callback);
   });
@@ -21,4 +22,4 @@ function end() {
 
 function credits() {
   setClick(".homePageIcon", "home", home);
-}
+}*/

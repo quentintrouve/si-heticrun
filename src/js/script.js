@@ -15,14 +15,12 @@ function home() {
 function game() {
   let character;
   let speedObj = 4;
-  let speedJump = 1;
-  let end;
+  let speedJump = 1.2;
   let intervalObj = 3000;
   let intervalJump = speedJump * 1000;
   let intervalBend = speedJump * 1000;
   let characterPosition = 50;
   let invicible = false;
-  let playerScore;
 
   document.addEventListener("keydown", function(e) {
     if (e.keyCode === 40) {
@@ -32,7 +30,6 @@ function game() {
   //import { render } from "node-sass";
   oxo.screens.loadScreen("game", function() {
     character = document.getElementById("character");
-
     //  Give the ability of moving to the character
     function jump(character) {
       oxo.inputs.listenKey("up", function() {
@@ -170,7 +167,7 @@ function game() {
         setTimeout(function() {
           invicible = false;
           character.classList.remove("invicible");
-        }, 10000);
+        }, 5000);
       });
     }
 
@@ -181,9 +178,9 @@ function game() {
     createEnnemy();
     jump(character);
     setInterval(createObstacle, intervalObj);
-    setInterval(createEnnemy, 5000);
-    //createBonusWater();
-    createBonusBirdies();
+    setInterval(createEnnemy, 30000);
+    setInterval(createBonusWater, 7000);
+    setInterval(createBonusBirdies, 20000);
     score();
   });
 }

@@ -1,3 +1,39 @@
+@keyframes jump-action {
+  0% {
+    bottom: 180px;
+  }
+  50% {
+    bottom: 360px;
+  }
+}
+
+@keyframes obstaclesmove {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-1500px);
+  }
+}
+
+@keyframes enemyMove {
+  from {
+    transform: translateX(1280px);
+  }
+  to {
+    transform: translateX(-60px);
+  }
+}
+
+@keyframes defile {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: -6395px 0px;
+  }
+}
+
 body.game {
   width: 100vw;
   height: 100vh;
@@ -27,19 +63,9 @@ body.game {
   animation-duration: 1s;
 }
 
-@keyframes jump-action {
-  0% {
-    bottom: 180px;
-  }
-  50% {
-    bottom: 360px;
-  }
-}
-
 .bend {
   background: url("../img/game/roll.gif") no-repeat;
   background-size: cover;
-  //  border: 2px solid red;
   width: 30px;
   height: 40px;
   left: 60px;
@@ -84,21 +110,6 @@ body.game {
   animation: linear obstaclesmove 4s;
 }
 
-@keyframes obstaclesmove {
-  from {
-    transform: translateX(0px);
-  }
-  to {
-    transform: translateX(-1500px);
-  }
-}
-
-.stop {
-  background-color: blue;
-  width: 400px;
-  height: 400px;
-}
-
 .ennemy {
   background: url("../img/game/student.gif") no-repeat;
   background-size: cover;
@@ -112,15 +123,6 @@ body.game {
 
 .ennemy__move {
   animation: linear enemyMove 50s forwards;
-}
-
-@keyframes enemyMove {
-  from {
-    transform: translateX(1280px);
-  }
-  to {
-    transform: translateX(-60px);
-  }
 }
 
 .bonus {
@@ -167,8 +169,6 @@ body.game {
   position: absolute;
 }
 
-//GAME IS IN 1280*750
-
 .title_game_page {
   text-align: center;
   font-weight: bold;
@@ -183,15 +183,6 @@ body.game {
   font-size: 40px;
   margin-top: 45px;
   font-family: "Poppins", sans-serif;
-}
-
-@keyframes defile {
-  from {
-    background-position: 0px 0px;
-  }
-  to {
-    background-position: -6395px 0px;
-  }
 }
 
 .menu {

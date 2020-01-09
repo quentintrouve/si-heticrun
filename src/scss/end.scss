@@ -16,7 +16,7 @@
 .endGame__title {
   font-family: PostNoBillsJaffna, arial, serif;
   font-size: 120px;
-  margin: 88px 0 56px 0;
+  margin: 30px 0 30px 0;
   text-transform: uppercase;
   text-align: center;
   color: white;
@@ -43,14 +43,17 @@
   display: flex;
 
   .endGame__image {
-    width: 150px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
+    margin-top: -30px;
+    margin-left: 80px;
   }
 }
 
 .endGame__buttonRestart {
   width: 450px;
   height: 78px;
+  margin-top: -40px;
   background-color: $green;
   padding: 0;
   border: none;

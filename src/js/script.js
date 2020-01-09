@@ -1,7 +1,26 @@
+//CHANGE SCREEN
+
 function setClick(element, destination, callback) {
   document.querySelector(element).addEventListener("click", function() {
     oxo.screens.loadScreen(destination, callback);
   });
+}
+
+// AUDIO
+
+let muteIcon = require("../img/mute(black).svg");
+let volumeIcon = require("../img/volumeOn(black).svg");
+let soundIcon;
+
+function mute() {
+  let audio = document.querySelector(".audio");
+  if (audio.muted == false) {
+    audio.muted = true;
+    soundIcon.style.backgroundImage = "url('" + muteIcon + "')";
+  } else {
+    audio.muted = false;
+    soundIcon.style.backgroundImage = "url('" + volumeIcon + "')";
+  }
 }
 
 oxo.screens.loadScreen("home", home);
@@ -13,6 +32,13 @@ function home() {
 }
 
 function game() {
+
+  let audio = document.querySelector(".audio");
+  soundIcon = document.querySelector(".soundControlIcon");
+  audio.play();
+  soundIcon.addEventListener("click", function() {
+    mute();
+
   let character;
   let speedObj = 4;
   let speedJump = 1;
@@ -185,6 +211,7 @@ function game() {
     //createBonusWater();
     createBonusBirdies();
     score();
+
   });
 }
 

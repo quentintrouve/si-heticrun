@@ -226,6 +226,9 @@ function game() {
   soundIcon.addEventListener("click", function() {
     mute();
   });
+
+  setClick(".home_icon", "home", home);
+  setClick(".restart_icon", "game", game);
 }
 
 function end() {

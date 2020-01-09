@@ -1,6 +1,8 @@
-document.querySelector(element).addEventListener("click", function() {
-  oxo.screens.loadScreen(destination, callback);
-});
+function setClick(element, destination, callback) {
+  document.querySelector(element).addEventListener("click", function() {
+    oxo.screens.loadScreen(destination, callback);
+  });
+}
 
 oxo.screens.loadScreen("home", home);
 

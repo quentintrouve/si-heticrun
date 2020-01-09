@@ -37,23 +37,6 @@
   line-height: 36px;
 }
 
-.homePage__buttonCredits {
-  font-family: "Poppins", arial, serif;
-  font-size: 15px;
-  color: white;
-  position: absolute;
-  bottom: 10px;
-  left: 30px;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-
-  &:hover {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-  }
-}
-
 .homePage__buttonHowToPlay {
   width: 327px;
   height: 60px;

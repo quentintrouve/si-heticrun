@@ -1,7 +1,6 @@
 document.querySelector(element).addEventListener("click", function() {
   oxo.screens.loadScreen(destination, callback);
-  });
-}
+});
 
 oxo.screens.loadScreen("home", home);
 

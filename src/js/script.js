@@ -231,6 +231,11 @@ function game() {
 function end() {
   setClick(".endGame__buttonRestart", "game", game);
   setClick(".homePageIcon", "home", home);
+  document.getElementById("result").innerHTML =
+    "Score : " +
+    oxo.player.getScore() +
+    "$ / 75 000$<br />Level : " +
+    oxo.player.getScore() / 7500; //récupère l'id du span, et ajoute le texte avec innerHtml
 }
 
 function credits() {

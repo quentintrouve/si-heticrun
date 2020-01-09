@@ -1,6 +1,8 @@
-body {
+body.game {
   width: 100vw;
   height: 100vh;
+  background-image: url(../img/game/game_page.png);
+  animation: defile 10s linear infinite;
 }
 
 .try {
@@ -166,11 +168,6 @@ body {
 }
 
 //GAME IS IN 1280*750
-
-body {
-  background-image: url(../img/game/game_page.png);
-  animation: defile 10s linear infinite;
-}
 
 .title_game_page {
   text-align: center;

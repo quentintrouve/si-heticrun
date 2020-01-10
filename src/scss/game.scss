@@ -185,7 +185,7 @@ body.game {
   font-family: "Poppins", sans-serif;
 }
 
-.menu {
+.try__menu {
   text-align: right;
   margin-top: -15px;
   line-height: 50px;
@@ -198,13 +198,15 @@ body.game {
   margin-right: -5px;
 }
 
-.home_icon {
+.homePageIcon--gamePage {
   width: 50px;
   margin-top: 5px;
   margin-right: -5px;
+  background-image: url("../img/game/Home.png");
+  position: static;
 }
 
-.restart_icon {
+.try__restartIcon {
   width: 38px;
   margin-top: 10px;
   margin-right: 3px;

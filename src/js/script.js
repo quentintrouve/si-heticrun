@@ -8,8 +8,8 @@ function setClick(element, destination, callback) {
 
 // AUDIO
 
-let muteIcon = require("../img/mute(black).svg");
-let volumeIcon = require("../img/volumeOn(black).svg");
+let muteIcon = require("../img/muteBlack.svg");
+let volumeIcon = require("../img/volumeOnBlack.svg");
 let soundIcon;
 
 function mute() {
@@ -77,6 +77,7 @@ function game() {
     let i;
     let obs;
     i = oxo.utils.getRandomNumber(1, 4);
+
     if (i === 1) {
       obs = oxo.elements.createElement({
         class: "obstacles obstacles__table obstacles__move",
@@ -124,6 +125,7 @@ function game() {
       },
       true
     );
+
     obs.style.animationDuration = speedObj + "s";
     character.style.animationDuration = speedJump + "s";
   }
@@ -227,8 +229,8 @@ function game() {
     mute();
   });
 
-  setClick(".home_icon", "home", home);
-  setClick(".restart_icon", "game", game);
+  setClick(".homePageIcon--gamePage", "home", home);
+  setClick(".try__restartIcon", "game", game);
 }
 
 function end() {

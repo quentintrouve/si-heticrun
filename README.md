@@ -10,6 +10,7 @@ Type de jeu vidéo choisi : Runner
 
 Temps imparti : 4 jours
 
-Consignes: Intégration avec Parcel / Sass 
+Obligations :
 
-           Développement avec Javascript
+- Intégration avec Parcel / Sass 
+- Développement avec Javascript

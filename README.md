@@ -9,3 +9,6 @@ Projet Ecole en binôme
 Type de jeu vidéo choisi : Runner
 
 Temps imparti : 4 jours
+
+Consignes: Intégration avec Parcel / Sass 
+           Développement avec Javascript

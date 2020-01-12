@@ -7,4 +7,5 @@ Projet Ecole en binôme
 => "Création d'un jeu vidéo avec le langage Javascript"
 
 Type de jeu vidéo choisi : Runner
+
 Temps imparti : 4 jours

@@ -12,7 +12,7 @@
   - Antonin LE PANSE DENEUX
 
 - Temps imparti : 4 jours de conception
-                  15 minutes de soutenance orale
+                  / 15 minutes de soutenance orale
 
 - Obligations :
 

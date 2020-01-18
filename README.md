@@ -2,6 +2,8 @@
 
 <b>"Création d'un jeu vidéo avec le langage Javascript"</b>
 
+Lien du site Netlify : https://si-hetic-run.netlify.com/
+
 - Contributeurs :
 
   - Quentin TROUVE

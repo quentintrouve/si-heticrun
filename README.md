@@ -1,7 +1,6 @@
 # hetic-web1p2022-01
 
-- Projet Ecole
-"Création d'un jeu vidéo avec le langage Javascript"
+<b>"Création d'un jeu vidéo avec le langage Javascript"</b>
 
 - Contributeurs :
 

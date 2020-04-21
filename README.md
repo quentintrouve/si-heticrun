@@ -1,6 +1,6 @@
-# hetic-web1p2022-01
+<h1>Semaine Intensive</h1>
 
-<b>"Création d'un jeu vidéo avec le langage Javascript"</b>
+<h2>"Création d'un jeu vidéo avec le langage Javascript"</h2>
 
 Lien du site Netlify : https://si-hetic-run.netlify.com/
 

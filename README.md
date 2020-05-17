@@ -1,32 +1,23 @@
-<h1>Semaine Intensive</h1>
+# HETIC RUN
 
-<h2>"Création d'un jeu vidéo avec le langage Javascript"</h2>
+ ___"Création d'un jeu vidéo en Javascript"___
+ 
+ ![alt tag](https://user-images.githubusercontent.com/47388675/80098162-b520a880-856c-11ea-86f7-066eb0bc5a6b.gif)
 
-Lien du site Netlify : https://si-hetic-run.netlify.com/
+## Membres :
+  - Melina CHAMAYOU : JavaScript
+  - Quentin TROUVE : Intégration / JavaScript
+  
+## Caractéristiques :
 
-- Contributeurs :
-
-  - Quentin TROUVE
-  - Melina CHAMAYOU
-  - Lucas MASSOL
-  - Imene BEN-RACHID
-  - Antonin LE PANSE DENEUX
+- Type de jeu vidéo choisi : 
+  - Runner / Plateformes
+- Support : 
+  - desktop 1280 x 750
 
 - Temps imparti : 
-
   - 4 jours de conception
   - 15 minutes de soutenance orale
 
-- Obligations :
-
-  - Intégration avec Parcel / Sass 
-  - Développement avec Javascript
-
-- Type de jeu vidéo
-  
-  - Runner
-
-- Support
-
-  - Desktop 1280 x 750
-
+## Page web 
+[hetic-run.netlify.com](https://hetic-run.netlify.com/)

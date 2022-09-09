@@ -58,5 +58,5 @@ Sass - [documentation](https://sass-lang.com/documentation/)
 
 ## 👥 Contributers
 
-Mélina Chamayou - [RedaHamouche](https://github.com/RedaHamouche)  
+Mélina Chamayou - [Klochette](https://github.com/Klochette)  
 Quentin Trouvé - [quentintrouve](https://github.com/quentintrouve)
